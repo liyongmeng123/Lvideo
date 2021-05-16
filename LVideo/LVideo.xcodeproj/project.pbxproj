@@ -16,6 +16,7 @@
 		E862EEBB26502491008CC135 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E862EEBA26502491008CC135 /* main.m */; };
 		E862EEC526502492008CC135 /* LVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E862EEC426502492008CC135 /* LVideoTests.m */; };
 		E862EED026502492008CC135 /* LVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E862EECF26502492008CC135 /* LVideoUITests.m */; };
+		E87FCB592650BE6C00A53E24 /* 97e88994e7ef968f6bfdb90c1fd8e356.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E87FCB582650BE6B00A53E24 /* 97e88994e7ef968f6bfdb90c1fd8e356.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		E862EECB26502492008CC135 /* LVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E862EECF26502492008CC135 /* LVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVideoUITests.m; sourceTree = "<group>"; };
 		E862EED126502492008CC135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E87FCB582650BE6B00A53E24 /* 97e88994e7ef968f6bfdb90c1fd8e356.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 97e88994e7ef968f6bfdb90c1fd8e356.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 		E862EEA72650248E008CC135 /* LVideo */ = {
 			isa = PBXGroup;
 			children = (
+				E87FCB582650BE6B00A53E24 /* 97e88994e7ef968f6bfdb90c1fd8e356.jpeg */,
 				E862EEA82650248E008CC135 /* AppDelegate.h */,
 				E862EEA92650248E008CC135 /* AppDelegate.m */,
 				E862EEAB2650248E008CC135 /* SceneDelegate.h */,
@@ -241,6 +244,7 @@
 			files = (
 				E862EEB826502491008CC135 /* LaunchScreen.storyboard in Resources */,
 				E862EEB526502491008CC135 /* Assets.xcassets in Resources */,
+				E87FCB592650BE6C00A53E24 /* 97e88994e7ef968f6bfdb90c1fd8e356.jpeg in Resources */,
 				E862EEB32650248E008CC135 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
