@@ -17,6 +17,9 @@
 		E862EEC526502492008CC135 /* LVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E862EEC426502492008CC135 /* LVideoTests.m */; };
 		E862EED026502492008CC135 /* LVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E862EECF26502492008CC135 /* LVideoUITests.m */; };
 		E87FCB592650BE6C00A53E24 /* 97e88994e7ef968f6bfdb90c1fd8e356.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = E87FCB582650BE6B00A53E24 /* 97e88994e7ef968f6bfdb90c1fd8e356.jpeg */; };
+		E8CC7CE32653A7DC00C573B3 /* glsl.vsh in Resources */ = {isa = PBXBuildFile; fileRef = E8CC7CE02653A7DA00C573B3 /* glsl.vsh */; };
+		E8CC7CE42653A7DC00C573B3 /* glsl.fsh in Resources */ = {isa = PBXBuildFile; fileRef = E8CC7CE12653A7DB00C573B3 /* glsl.fsh */; };
+		E8CC7CE52653A7DC00C573B3 /* sample.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E8CC7CE22653A7DB00C573B3 /* sample.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +59,9 @@
 		E862EECF26502492008CC135 /* LVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LVideoUITests.m; sourceTree = "<group>"; };
 		E862EED126502492008CC135 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E87FCB582650BE6B00A53E24 /* 97e88994e7ef968f6bfdb90c1fd8e356.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 97e88994e7ef968f6bfdb90c1fd8e356.jpeg; sourceTree = "<group>"; };
+		E8CC7CE02653A7DA00C573B3 /* glsl.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = glsl.vsh; sourceTree = "<group>"; };
+		E8CC7CE12653A7DB00C573B3 /* glsl.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = glsl.fsh; sourceTree = "<group>"; };
+		E8CC7CE22653A7DB00C573B3 /* sample.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,9 @@
 		E862EEA72650248E008CC135 /* LVideo */ = {
 			isa = PBXGroup;
 			children = (
+				E8CC7CE12653A7DB00C573B3 /* glsl.fsh */,
+				E8CC7CE02653A7DA00C573B3 /* glsl.vsh */,
+				E8CC7CE22653A7DB00C573B3 /* sample.jpg */,
 				E87FCB582650BE6B00A53E24 /* 97e88994e7ef968f6bfdb90c1fd8e356.jpeg */,
 				E862EEA82650248E008CC135 /* AppDelegate.h */,
 				E862EEA92650248E008CC135 /* AppDelegate.m */,
@@ -243,8 +252,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E862EEB826502491008CC135 /* LaunchScreen.storyboard in Resources */,
+				E8CC7CE42653A7DC00C573B3 /* glsl.fsh in Resources */,
+				E8CC7CE32653A7DC00C573B3 /* glsl.vsh in Resources */,
 				E862EEB526502491008CC135 /* Assets.xcassets in Resources */,
 				E87FCB592650BE6C00A53E24 /* 97e88994e7ef968f6bfdb90c1fd8e356.jpeg in Resources */,
+				E8CC7CE52653A7DC00C573B3 /* sample.jpg in Resources */,
 				E862EEB32650248E008CC135 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
